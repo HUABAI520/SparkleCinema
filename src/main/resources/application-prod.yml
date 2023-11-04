@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-cn-5yd3gpq2c000hfzo.rwlb.cn-chengdu.rds.aliyuncs.com:3306/l2
+    username: root
+    password: H123456l
+  session:
+    timeout: 25600
+server:
+#   能够通过Ipv4访问
+  address: 0.0.0.0
+  port: 8201
+  servlet:
+    context-path: /api
