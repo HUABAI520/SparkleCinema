@@ -1,0 +1,267 @@
+POST http://localhost:8201/api/user/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=45A89542F8876BAFF094FF0FF5732DBA
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userAccount": "huabaibanxialll",
+  "userPassword": "12345678",
+  "checkPassword": "12345678",
+  "l2Code": "4"
+}
+
+<> 2023-11-03T203236.200.json
+
+###
+
+POST http://localhost:8201/api/user/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=45A89542F8876BAFF094FF0FF5732DBA
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userAccount": "huabaibanxialll",
+  "userPassword": "12345678",
+  "checkPassword": "12345678",
+  "l2Code": "1"
+}
+
+<> 2023-11-03T203229.200.json
+
+###
+
+POST http://localhost:8201/api/user/register
+Content-Type: application/json
+Content-Length: 113
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=45A89542F8876BAFF094FF0FF5732DBA
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userAccount": "huabaibanxia",
+  "userPassword": "12345678",
+  "checkPassword": "12345678",
+  "l2Code": "1"
+}
+
+<> 2023-11-03T203154.200.json
+
+###
+
+POST http://localhost:8201/api/user/register
+Content-Type: application/json
+Content-Length: 113
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=45A89542F8876BAFF094FF0FF5732DBA
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userAccount": "huabaibanxia",
+  "userPassword": "12345678",
+  "checkPassword": "12345678",
+  "l2Code": "2"
+}
+
+<> 2023-11-03T203141.200.json
+
+###
+
+POST http://localhost:8201/user/login
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=45A89542F8876BAFF094FF0FF5732DBA
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userAccount": "lllll",
+  "userPassword": "12345678"
+}
+
+<> 2023-11-03T191456.404.html
+
+###
+
+POST http://localhost:8201/user/login
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=45A89542F8876BAFF094FF0FF5732DBA
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userAccount": "lllll",
+  "userPassword": "12345678"
+}
+
+<> 2023-11-03T191309.404.html
+
+###
+
+POST http://localhost:8201/user/login
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=45A89542F8876BAFF094FF0FF5732DBA
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userAccount": "lllll",
+  "userPassword": "12345678"
+}
+
+<> 2023-11-03T191215.404.html
+
+###
+
+GET http://localhost:8201/user/search
+Content-Type: application/json
+Content-Length: 33
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=45A89542F8876BAFF094FF0FF5732DBA
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "huabaibanxia",
+}
+
+<> 2023-10-30T233351.200.json
+
+###
+
+GET http://localhost:8201/user/search
+Content-Type: application/json
+Content-Length: 36
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=45A89542F8876BAFF094FF0FF5732DBA
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userAccount": "huabaibanxia",
+}
+
+<> 2023-10-30T233328.200.json
+
+###
+
+POST http://localhost:8201/user/login
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=45A89542F8876BAFF094FF0FF5732DBA
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userAccount": "lllll",
+  "userPassword": "12345678"
+}
+
+<> 2023-10-30T233317.200.json
+
+###
+
+GET http://localhost:8201/user/search
+Content-Type: application/json
+Content-Length: 35
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=45A89542F8876BAFF094FF0FF5732DBA
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userAccount": "huabaibanxia"
+}
+
+<> 2023-10-30T233157.200.json
+
+###
+
+GET http://localhost:8201/user/search
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=45A89542F8876BAFF094FF0FF5732DBA
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-30T233149.400.json
+
+###
+
+GET http://localhost:8201/user/search
+Content-Type: application/json
+Content-Length: 36
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=E274C658C4174ACBC8C2CC4182BC259C
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userAccount": "huabaibanxia",
+}
+
+<> 2023-10-30T232549.200.json
+
+###
+
+POST http://localhost:8201/user/login
+Content-Type: application/json
+Content-Length: 65
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=E274C658C4174ACBC8C2CC4182BC259C
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userAccount": "huabaibanxia",
+  "userPassword": "12345678"
+}
+
+###
+
+POST http://localhost:8201/user/register
+Content-Type: application/json
+Content-Length: 96
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Cookie: JSESSIONID=E274C658C4174ACBC8C2CC4182BC259C
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userAccount": "huabaibanxia",
+  "userPassword": "12345678",
+  "checkPassword": "12345678"
+}
+
+<> 2023-10-30T215931.200.json
+
+###
+
+POST http://localhost:8201/user/login
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "userAccount": "lllll",
+  "userPassword": "12345678"
+}
+
+<> 2023-10-30T215551.200.json
+
+###
+

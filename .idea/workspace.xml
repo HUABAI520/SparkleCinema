@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e2f71ca3-6c27-400c-8442-8750e030f783" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sql/hb.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/SparkleCinemaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/annotation/AuthCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/aop/AuthInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/aop/LogInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/common/PageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/config/Knife4jConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/config/RedisTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/config/RedissonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/controller/SparkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/initializer/SparkInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/model/dto/file/UploadFileRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/model/dto/spark/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/model/dto/user/UserQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/model/entity/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/model/enums/HdfsUploadEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/model/enums/MatchTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/model/enums/TeamStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/model/prefix/SparkProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/model/result/LoginResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/service/SparkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/service/impl/RedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/service/impl/SparkServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/service/impl/SparkServiceNewImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/utils/HuaUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/utils/SqlUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cuit/gcsj/HdfsFileUpload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/L2yhApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/common/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/common/BaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/common/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/common/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/common/ResultUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/common/ResultUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/constant/CommonConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/constant/CommonConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/constant/FileConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/constant/FileConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/constant/JwtConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/constant/JwtConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/constant/UserConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/constant/UserConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/exception/ThrowUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/exception/ThrowUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/model/dto/user/UserLoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/model/dto/user/UserLoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/model/dto/user/UserRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/model/dto/user/UserRegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/model/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/model/enums/FileUploadBizEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/model/enums/FileUploadBizEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/model/enums/JudgeInfoMessageEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/model/enums/JudgeInfoMessageEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/model/enums/QuestionSubmitLanguageEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/model/enums/QuestionSubmitLanguageEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/model/enums/QuestionSubmitStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/model/enums/QuestionSubmitStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/model/enums/UserRoleEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/model/enums/UserRoleEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/model/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/model/vo/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cuit/gcsj/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ithe/l2yh/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ithe/l2yh/L2yhApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ithe/l2yh/service/UserServiceTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.8.6-bin/apache-maven-3.8.6" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2XTH5aJ9qNhqD2JHVNlxDYY9PEC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/code/javaee/SparkleCinema/src/main/java/com/cuit/gcsj&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\IDEA\\IntelliJ IDEA 2023.2.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;mongo&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\javaee\SparkleCinema\src\main\java\com\cuit\gcsj" />
+      <recent name="E:\code\javaee\SparkleCinema\src\main\java\com\cuit\gcsj\model\dto" />
+      <recent name="E:\code\javaee\l2yh\src\main\resources" />
+      <recent name="E:\code\javaee\l2yh\src\main\java\com\ithe\l2yh\model" />
+      <recent name="E:\code\javaee\l2yh\src\main\java\com\ithe\l2yh" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\javaee\l2yh\src\main\resources" />
+      <recent name="E:\code\javaee\l2yh\src\main\resources\mapper" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ithe.l2yh.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cuit.gcsj.datasource" />
+      <recent name="com.cuit.gcsj.model.enums" />
+      <recent name="com.cuit.gcsj.service" />
+      <recent name="com.cuit.gcsj.manage" />
+      <recent name="com.cuit.gcsj.utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SparkleCinemaApplication">
+    <configuration name="HdfsFileUpload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cuit.gcsj.HdfsFileUpload" />
+      <module name="SparkleCinema" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cuit.gcsj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <shortenClasspath name="ARGS_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedissonText.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SparkleCinema" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ithe.l2yh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ithe.l2yh" />
+      <option name="MAIN_CLASS_NAME" value="com.ithe.l2yh.RedissonText" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkTest.filter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SparkleCinema" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cuit.gcsj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cuit.gcsj" />
+      <option name="MAIN_CLASS_NAME" value="com.cuit.gcsj.SparkTest" />
+      <option name="METHOD_NAME" value="filter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkTest.filter1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SparkleCinema" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cuit.gcsj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cuit.gcsj" />
+      <option name="MAIN_CLASS_NAME" value="com.cuit.gcsj.SparkTest" />
+      <option name="METHOD_NAME" value="filter1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkTest.filter2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SparkleCinema" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cuit.gcsj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cuit.gcsj" />
+      <option name="MAIN_CLASS_NAME" value="com.cuit.gcsj.SparkTest" />
+      <option name="METHOD_NAME" value="filter2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L2yhApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="SparkleCinema" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ithe.l2yh.L2yhApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L2yhApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="l2yh" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ithe.l2yh.L2yhApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkleCinemaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="SparkleCinema" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cuit.gcsj.SparkleCinemaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HdfsFileUpload" />
+      <item itemvalue="JUnit.SparkTest.filter1" />
+      <item itemvalue="JUnit.SparkTest.filter" />
+      <item itemvalue="JUnit.SparkTest.filter2" />
+      <item itemvalue="JUnit.RedissonText.test" />
+      <item itemvalue="Spring Boot.SparkleCinemaApplication" />
+      <item itemvalue="Spring Boot.L2yhApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HdfsFileUpload" />
+        <item itemvalue="JUnit.SparkTest.filter1" />
+        <item itemvalue="JUnit.SparkTest.filter2" />
+        <item itemvalue="JUnit.SparkTest.filter" />
+        <item itemvalue="JUnit.RedissonText.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2f71ca3-6c27-400c-8442-8750e030f783" name="Changes" comment="" />
+      <created>1698645967214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698645967214</updated>
+      <workItem from="1698645968262" duration="14941000" />
+      <workItem from="1698673122114" duration="5546000" />
+      <workItem from="1698732298031" duration="345000" />
+      <workItem from="1698744625712" duration="10953000" />
+      <workItem from="1698764244603" duration="752000" />
+      <workItem from="1698899288148" duration="149000" />
+      <workItem from="1698899447258" duration="378000" />
+      <workItem from="1698917707726" duration="75000" />
+      <workItem from="1698917862347" duration="142000" />
+      <workItem from="1698919443711" duration="1000" />
+      <workItem from="1698926453524" duration="5828000" />
+      <workItem from="1698982701439" duration="217000" />
+      <workItem from="1699009739790" duration="11054000" />
+      <workItem from="1699063359839" duration="3410000" />
+      <workItem from="1699075661227" duration="17747000" />
+      <workItem from="1699111875946" duration="205000" />
+      <workItem from="1699176940226" duration="3261000" />
+      <workItem from="1699185539588" duration="7857000" />
+      <workItem from="1699239537505" duration="4841000" />
+      <workItem from="1699270108807" duration="12812000" />
+      <workItem from="1699331702569" duration="2823000" />
+      <workItem from="1699336686020" duration="1725000" />
+      <workItem from="1699357456322" duration="4190000" />
+      <workItem from="1699441514785" duration="88000" />
+      <workItem from="1699452532686" duration="5169000" />
+      <workItem from="1699507597045" duration="3999000" />
+      <workItem from="1699536572774" duration="14000" />
+      <workItem from="1699538534681" duration="675000" />
+      <workItem from="1699686114505" duration="9330000" />
+      <workItem from="1699705978078" duration="6251000" />
+      <workItem from="1699776430008" duration="4596000" />
+      <workItem from="1699791089589" duration="2871000" />
+      <workItem from="1699852115482" duration="1140000" />
+      <workItem from="1699876415770" duration="9758000" />
+      <workItem from="1699960307109" duration="1038000" />
+      <workItem from="1699969246121" duration="5823000" />
+      <workItem from="1700034939715" duration="8309000" />
+      <workItem from="1700138943798" duration="2753000" />
+      <workItem from="1700141712499" duration="2691000" />
+      <workItem from="1700187675374" duration="4956000" />
+      <workItem from="1700205973299" duration="2525000" />
+      <workItem from="1700299114021" duration="1168000" />
+      <workItem from="1700301565442" duration="3439000" />
+      <workItem from="1700397411442" duration="10000" />
+      <workItem from="1700752800204" duration="242000" />
+      <workItem from="1700885840008" duration="17000" />
+      <workItem from="1701311230540" duration="3551000" />
+      <workItem from="1701342472231" duration="3666000" />
+      <workItem from="1701347671688" duration="6752000" />
+      <workItem from="1701354464671" duration="1456000" />
+      <workItem from="1701355938414" duration="153000" />
+      <workItem from="1701356108343" duration="2408000" />
+      <workItem from="1701359078973" duration="784000" />
+      <workItem from="1701397183305" duration="4380000" />
+      <workItem from="1701527460497" duration="5344000" />
+      <workItem from="1701564581054" duration="4690000" />
+      <workItem from="1701569323984" duration="8410000" />
+      <workItem from="1701603163190" duration="10639000" />
+      <workItem from="1701660852354" duration="11199000" />
+      <workItem from="1701705862658" duration="883000" />
+      <workItem from="1701740076562" duration="9372000" />
+    </task>
+    <task id="LOCAL-00001" summary="1">
+      <option name="closed" value="true" />
+      <created>1699084573569</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699084573569</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

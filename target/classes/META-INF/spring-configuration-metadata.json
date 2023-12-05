@@ -1,0 +1,59 @@
+{
+  "groups": [
+    {
+      "name": "spark",
+      "type": "com.cuit.gcsj.model.prefix.SparkProperties",
+      "sourceType": "com.cuit.gcsj.model.prefix.SparkProperties"
+    },
+    {
+      "name": "spring.redis",
+      "type": "com.cuit.gcsj.config.RedissonConfig",
+      "sourceType": "com.cuit.gcsj.config.RedissonConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spark.command",
+      "type": "java.lang.String",
+      "sourceType": "com.cuit.gcsj.model.prefix.SparkProperties"
+    },
+    {
+      "name": "spark.hdfs-uri",
+      "type": "java.lang.String",
+      "sourceType": "com.cuit.gcsj.model.prefix.SparkProperties"
+    },
+    {
+      "name": "spark.host",
+      "type": "java.lang.String",
+      "sourceType": "com.cuit.gcsj.model.prefix.SparkProperties"
+    },
+    {
+      "name": "spark.password",
+      "type": "java.lang.String",
+      "sourceType": "com.cuit.gcsj.model.prefix.SparkProperties"
+    },
+    {
+      "name": "spark.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.cuit.gcsj.model.prefix.SparkProperties"
+    },
+    {
+      "name": "spark.user",
+      "type": "java.lang.String",
+      "sourceType": "com.cuit.gcsj.model.prefix.SparkProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "description": "redis地址",
+      "sourceType": "com.cuit.gcsj.config.RedissonConfig"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.String",
+      "description": "redis端口",
+      "sourceType": "com.cuit.gcsj.config.RedissonConfig"
+    }
+  ],
+  "hints": []
+}

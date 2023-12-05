@@ -13,7 +13,7 @@
 # Unless required by applicable law or agreed to in writing,
 # software distributed under the License is distributed on an
 # "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-# KIND, either express or implied.  See the License for the
+# KIND, ecuitr express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
 # ----------------------------------------------------------------------------
@@ -50,7 +50,7 @@ if [ -z "$MAVEN_SKIP_RC" ] ; then
 
 fi
 
-# OS specific support.  $var _must_ be set to either true or false.
+# OS specific support.  $var _must_ be set to ecuitr true or false.
 cygwin=false;
 darwin=false;
 mingw=false

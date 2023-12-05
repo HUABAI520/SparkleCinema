@@ -7,4 +7,4 @@ COPY src ./src
 
 RUN mvn  package -DskipTests
 
-CMD ["java", "-jar", "/app/target/l2yh-0.0.1-SNAPSHOT.jar","--spring.profiles.active=prod"]
+CMD ["java", "-jar", "/app/target/gcsj-0.0.1-SNAPSHOT.jar","--spring.profiles.active=prod"]
